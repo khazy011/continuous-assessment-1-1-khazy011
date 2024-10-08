@@ -1,12 +1,34 @@
-package Task1;
+package ca1.task1;
 
-import static org.junit.jupiter.api.Assertions.*; 
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 class CaesarCypherTest {
 
 	public CaesarCypher cesarCypher = new CaesarCypher();
+	
+	@Test
+	void testEncode() {
+		//CaesarCypher cc = new CaesarCypher();
+		
+		char[] input = {'a', 'b', 'c'};
+		char[] expected = {'c', 'd', 'e'};
+		
+		assertArrayEquals(expected, cesarCypher.encode(input, 2), "The encoding method does not work as expected.");
+	}
+
+	@Test
+	void testDecode() {
+		//CaesarCypher cc = new CaesarCypher();
+		
+	
+		char[] input = {'c', 'd', 'e'};
+		char[] expected = {'a', 'b', 'c'};
+		
+		assertArrayEquals(expected, cesarCypher.decode(input, 2), "The decoding method does not work as expected.");
+	}
+	
 	/**
 	 * Test for encoding characters where each character is offset by 1.
 	 */
@@ -188,6 +210,5 @@ class CaesarCypherTest {
 		char[] resultArray = cesarCypher.decode(testArray, 0);
 		
 		assertNull(resultArray);
-	}	
-	
+	}		
 }

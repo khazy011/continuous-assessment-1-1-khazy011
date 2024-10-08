@@ -1,6 +1,7 @@
-package Task4;
+package ca1.task4;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
 class CarTest {
@@ -67,4 +68,5 @@ class CarTest {
 		
 		assertFalse(car1.equals(car2));
 	}
+
 }

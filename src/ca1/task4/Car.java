@@ -1,4 +1,5 @@
-package Task4;
+package ca1.task4;
+
 /**
  * This is for removing duplicates objects from an array. The Car class needs to have 
  * overridden methods, which are:

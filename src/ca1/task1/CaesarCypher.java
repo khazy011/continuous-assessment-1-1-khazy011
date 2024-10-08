@@ -1,4 +1,4 @@
-package Task1;
+package ca1.task1;
 
 /**
  * Task 1 is to implement CesarCypher class which encodes and decodes an array

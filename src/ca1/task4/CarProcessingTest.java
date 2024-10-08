@@ -1,8 +1,9 @@
-package Task4;
+package ca1.task4;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
 
 class CarProcessingTest {
 
@@ -76,6 +77,5 @@ class CarProcessingTest {
 		
 		assertArrayEquals(carListExpected, actualList);
 	}	
-	
 
 }

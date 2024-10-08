@@ -1,4 +1,4 @@
-package Task2;
+package ca1.task2;
 /**
  * Task 2 is to implement a class with the implementation of printWords. 
  * The printWords method will print the same word based on the inputer parameter numberOfLoops.

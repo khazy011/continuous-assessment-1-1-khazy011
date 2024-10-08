@@ -1,4 +1,4 @@
-package Task3;
+package ca1.task3;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -85,5 +85,4 @@ class ArrayCountTest {
 		int count = arrayCount.count(arrStr, target);
 		assertEquals(0, count);		
 	}
-	
 }

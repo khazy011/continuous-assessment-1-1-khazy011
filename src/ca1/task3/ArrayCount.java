@@ -1,14 +1,12 @@
-package Task3;
+package ca1.task3;
 
 public class ArrayCount {
-	
-	public int count(String[] arr, String target)
-	{
-		if (arr != null && arr.length > 0 && (target != null))
+	public int count(String[] array, String target) {
+		if (array != null && array.length > 0 && (target != null))
 		{
 			int targetCount = 0;
 			
-			for(String s: arr)
+			for(String s: array)
 			{
 				if (s == target)
 				{
@@ -21,5 +19,4 @@ public class ArrayCount {
 		
 		return -1;
 	}
-
 }
